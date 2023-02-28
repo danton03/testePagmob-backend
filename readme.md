@@ -27,40 +27,40 @@ GET /services
 Responde com _status code_ `200` e um _JSON_ como no exemplo abaixo:
 ```json
 {
-	"services": [
-		{
-			"routeCode": "X111",
-			"routeMnemonic": "Vitória Régia II e III",
-			"companyId": 11111,
-			"stopId": 1111111,
-			"serviceId": 11111111,
-			"serviceMnemonic": "X111 - ATENDIMENTO 2 - VITÓRIA RÉGIA II",
-			"predictionType": "ARRIVAL",
-			"activeVehicles": 0,
-			"scheduledVehicles": 1,
-			"messages": [
-				{
-					"text": "Mensagem qualquer",
-					"ts": 1658332192493,
-					"companyId": 306,
-					"companyType": "AUTHORITY",
-					"companyName": "Prefeitura de Sorocaba"
-				}
-			],
-			"vehicles": [
-        {
-					"plate": "AAA1234",
-					"prefix": "1255",
-					"wheelchair": true,
-					"climatized": false,
-					"prediction": 2505,
-					"age": 0,
-					"type": "SCHEDULE"
-				}
-      ],
-			"hasRealTime": true
-		},
-  ]
+   "services": [
+	{
+	  "routeCode": "X111",
+	  "routeMnemonic": "Vitória Régia II e III",
+	  "companyId": 11111,
+	  "stopId": 1111111,
+	  "serviceId": 11111111,
+	  "serviceMnemonic": "X111 - ATENDIMENTO 2 - VITÓRIA RÉGIA II",
+	  "predictionType": "ARRIVAL",
+	  "activeVehicles": 0,
+	  "scheduledVehicles": 1,
+	  "messages": [
+	      {
+		"text": "Mensagem qualquer",
+		"ts": 1658332192493,
+		"companyId": 306,
+		"companyType": "AUTHORITY",
+		"companyName": "Prefeitura de Sorocaba"
+	      }
+	  ],
+	  "vehicles": [
+	      {
+		"plate": "AAA1234",
+		"prefix": "1255",
+		"wheelchair": true,
+		"climatized": false,
+		"prediction": 2505,
+		"age": 0,
+		"type": "SCHEDULE"
+	       }
+          ],
+	  "hasRealTime": true
+	},
+    ]
 }
 ```
 
